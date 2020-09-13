@@ -17,8 +17,11 @@ public class DeathStarCodesController {
 	
 	@PostMapping("/decode")	
 	public ArrayList<String> decode(@RequestBody ArrayList<String> code){
-		
 		return deathstarcode.decodeData(code);
+	}
+
+	public void setDeathstarcode(DeathStarCodesService deathstarcode) {
+		this.deathstarcode = deathstarcode;
 	}
 
 }

@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class StratioWarsApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void StratioWarsApplicationTest() {
+		StratioWarsApplication.main(new String[] {});
 	}
 
 }
